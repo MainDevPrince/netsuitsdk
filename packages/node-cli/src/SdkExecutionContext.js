@@ -8,11 +8,11 @@ const assert = require('assert');
 
 class SdkExecutionContext {
 	constructor(options) {
-		// assert(options.command, 'Command is mandatory option');
-		// this._command = options.command;
-		// this._integrationMode = options.integrationMode;
-		// this._params = options.params;
-		// this._flags = options.flags;
+		assert(options.command, 'Command is mandatory option');
+		this._command = options.command;
+		this._integrationMode = options.integrationMode;
+		this._params = options.params;
+		this._flags = options.flags;
 	}
 
 	getCommand() {
