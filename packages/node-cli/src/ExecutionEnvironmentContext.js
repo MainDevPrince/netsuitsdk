@@ -28,12 +28,12 @@ module.exports = class ExecutionEnvironmentContext {
         }
     }
 
-    // getPlatform() {
-    //     return this._platform;
-    // }
+    getPlatform() {
+        return this._platform;
+    }
 
-    // getPlatformVersion() {
-    //     return this._platformVersion;
-    // }
+    getPlatformVersion() {
+        return this._platformVersion;
+    }
 
 }
