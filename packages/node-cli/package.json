@@ -1,0 +1,42 @@
+{
+	"name": "@oracle/suitecloud-cli",
+	"version": "1.8.0",
+	"license": "UPL-1.0",
+	"description": "SuiteCloud CLI for Node.js",
+	"keywords": [
+		"NetSuite",
+		"SDF",
+		"SuiteApp",
+		"SuiteCloud",
+		"SuiteScripts"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"bugs": {
+		"url": "https://github.com/oracle/netsuite-suitecloud-sdk/issues"
+	},
+	"repository": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/master/packages/node-cli",
+	"main": "./src/suitecloud.js",
+	"preferGlobal": true,
+	"sdkFilename": "cli-2023.2.0.jar",
+	"nsCompatibleVersion": "2023.2",
+	"sdkDownloadUrl": "https://system.netsuite.com/download/suitecloud-sdk/23.2",
+	"bin": {
+		"suitecloud": "./src/suitecloud.js"
+	},
+	"dependencies": {
+		"chalk": "4.1.2",
+		"cli-spinner": "0.2.10",
+		"commander": "11.0.0",
+		"inquirer": "8.2.5",
+		"xml2js": "0.6.0"
+	},
+	"devDependencies": {
+		"jest": "29.6.1"
+	},
+	"scripts": {
+		"test": "jest",
+		"postinstall": "node postinstall.js"
+	}
+}

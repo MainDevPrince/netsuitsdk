@@ -1,0 +1,24 @@
+{
+	"name": "@oracle/suitecloud-unit-testing",
+	"version": "1.4.1",
+	"license": "UPL-1.0",
+	"repository": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/master/packages/unit-testing",
+	"bugs": {
+		"url": "https://github.com/oracle/netsuite-suitecloud-sdk/issues"
+	},
+	"keywords": [
+		"NetSuite",
+		"SuiteCloud",
+		"SDF"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"main": "jest-configuration/SuiteCloudJestConfiguration.js",
+	"dependencies": {
+		"@babel/preset-env": "7.22.9",
+		"babel-jest": "29.6.1",
+		"babel-plugin-transform-amd-to-commonjs": "1.6.0",
+		"xml2js": "0.6.0"
+	}
+}
