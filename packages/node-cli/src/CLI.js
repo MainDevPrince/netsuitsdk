@@ -19,15 +19,15 @@ const INTERACTIVE_ALIAS = '-i';
 const INTERACTIVE_OPTION = '--interactive';
 
 // suitecloud executable is in {root}/src/suitecloud.js. package.json file is one level before
-const PACKAGE_FILE = `${path.dirname(require.main.filename)}/../package.json`;
-const configFile = require(PACKAGE_FILE);
-const CLI_VERSION = configFile ? configFile.version : 'unknown';
-const { nsCompatibleVersion } = require(PACKAGE_FILE);
-const COMMAND_ALIAS = '[command]';
-const HELP_COMMAND = 'help';
-const HELP_OPTION = '--help';
-const HELP_ALIAS = '-h';
-const VERSION_OPTION = '--version';
+// const PACKAGE_FILE = `${path.dirname(require.main.filename)}/../package.json`;
+// const configFile = require(PACKAGE_FILE);
+// const CLI_VERSION = configFile ? configFile.version : 'unknown';
+// const { nsCompatibleVersion } = require(PACKAGE_FILE);
+// const COMMAND_ALIAS = '[command]';
+// const HELP_COMMAND = 'help';
+// const HELP_OPTION = '--help';
+// const HELP_ALIAS = '-h';
+// const VERSION_OPTION = '--version';
 
 module.exports = class CLI {
 	constructor(dependencies) {
