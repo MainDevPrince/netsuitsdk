@@ -26,8 +26,8 @@ const { nsCompatibleVersion } = require(PACKAGE_FILE);
 const COMMAND_ALIAS = '[command]';
 const HELP_COMMAND = 'help';
 const HELP_OPTION = '--help';
-const HELP_ALIAS = '-h';
-const VERSION_OPTION = '--version';
+// const HELP_ALIAS = '-h';
+// const VERSION_OPTION = '--version';
 
 module.exports = class CLI {
 	constructor(dependencies) {
